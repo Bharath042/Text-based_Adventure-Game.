@@ -39,35 +39,7 @@ Quest and Village Interaction
 Modular Approach
 - The code employs a modular approach, with each method responsible for a specific aspect of the game, enhancing readability and maintainability.
 
-3. Class Diagram
-
-+----------------------------+
-|   TextAdventureGame        |
-+----------------------------+
-| - score: int               |
-| - health: int              |
-| - hasTreasure: bool        |
-| - scanner: Scanner         |
-+----------------------------+
-| + main()                   |
-| + handleFirstChoice()      |
-| + handleLeftPath()         |
-| + handleRightPath()        |
-| + exploreMysticalVillage() |
-| + meetWiseElder()          |
-| + embarkOnQuest()          |
-| + handleFight()            |
-| + handleAttack()           |
-| + quickStrike()            |
-| + powerSlash()             |
-| + fireball()               |
-| + handleDefend()           |
-| + endGame()                |
-| + getUserInput()           |
-| + handleInvalidInput()     |
-+----------------------------+
-
-4. Challenges
+3. Challenges
 
 Complexity
 - The dynamic nature of the storyline and the variety of player choices contribute to code complexity.
@@ -76,6 +48,6 @@ Complexity
 Code Duplication
 - The combat handling methods (`handleAttack`, `quickStrike`, `powerSlash`, `fireball`) share common patterns, leading to some code duplication.
 
-5. Conclusion
+4. Conclusion
 
 - The Text Adventure Game provides an immersive and interactive experience for players. Its dynamic storyline, combat system, and quest elements contribute to an engaging gameplay experience. While challenges such as code complexity and duplication were encountered, the modular design and adherence to object-oriented principles enhance the code's readability and maintainability. Future enhancements could focus on expanding the storyline, introducing additional features, and refining the combat system.
